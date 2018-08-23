@@ -16,7 +16,7 @@ module Myapp
       g.template_engine  :erb
       g.test_framework   :test_unit, fixture: false
       g.stylesheets      false
-      g.javascripts      false
+      g.javascripts      true
     end
   end
 end
